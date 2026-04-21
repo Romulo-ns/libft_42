@@ -6,18 +6,23 @@
 #    By: romdo-na <romdo-na@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/04/21 16:23:00 by romdo-na          #+#    #+#              #
-#    Updated: 2026/04/21 16:59:18 by romdo-na         ###   ########.fr        #
+#    Updated: 2026/04/21 19:48:53 by romdo-na         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 
-CFLAGS		= -Wall -Wextra -Werror -g
-CC			= clang
-NAME		= libft.a
-FLAGLIB		= -rcs
-RM			= /bin/rm -f
+NAME		= libft
 
-FUNC		= ft_isalnum.c ft_isalpha.c ft_isdigit.c ft_isascii.c ft_isprint.c
+CC			= clang
+CFLAGS		= -Wall -Wextra -Werror -g
+
+FLAGLIB		= -rcs
+
+RM			= rm -rf
+
+FUNC		= $(SRC)
+
+SRC 		= $(wildcard srcs/*.c)
 
 OBJ			= $(FUNC:.c=.o)
 
@@ -54,4 +59,4 @@ fclean:		clean
 
 re:			fclean all
 
-.PHONY:		all re clean fclean
+.PHONY:		all clean fclean re
