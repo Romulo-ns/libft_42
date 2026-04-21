@@ -1,36 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: romdo-na <romdo-na@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/21 15:48:46 by romdo-na          #+#    #+#             */
-/*   Updated: 2026/04/21 19:35:23 by romdo-na         ###   ########.fr       */
+/*   Created: 2026/04/21 18:58:40 by romdo-na          #+#    #+#             */
+/*   Updated: 2026/04/21 19:54:03 by romdo-na         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
 
-# include <unistd.h>
-# include <stdio.h>
-# include <stdlib.h>
+#include "libft.h"
 
-typedef struct s_list
+int main (void)
 {
-    void            *content;
-    struct s_list   *next;
-}   t_list;
+    printf("");
+    if (ft_isalnum(1) == ft_isalnum(1))
+        printf("ok");
+    else printf("not ok");
 
-
-int     ft_isalpha  (int c);
-int     ft_isdigit  (int c);
-int     ft_isalnum  (int c);
-int     ft_isascii  (int i);
-int     ft_isprint  (int i);
-int     ft_strlen   (char *str);
-
-
-
-#endif
+    return (0);
+}
