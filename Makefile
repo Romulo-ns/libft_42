@@ -6,7 +6,7 @@
 #    By: romdo-na <romdo-na@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/04/21 16:23:00 by romdo-na          #+#    #+#              #
-#    Updated: 2026/04/21 16:36:09 by romdo-na         ###   ########.fr        #
+#    Updated: 2026/04/21 16:55:37 by romdo-na         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ NAME		= libft.a
 FLAGLIB		= -rcs
 RM			= /bin/rm -f
 
-FUNC		= ft_isalnum.c ft_isalpha.c ft_isdigit.c
+FUNC		= ft_isalnum.c ft_isalpha.c ft_isdigit.c ft_isascii.c
 
 OBJ			= $(FUNC:.c=.o)
 
