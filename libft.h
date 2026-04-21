@@ -6,7 +6,7 @@
 /*   By: romdo-na <romdo-na@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 15:48:46 by romdo-na          #+#    #+#             */
-/*   Updated: 2026/04/21 16:39:27 by romdo-na         ###   ########.fr       */
+/*   Updated: 2026/04/21 16:56:19 by romdo-na         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,10 @@ typedef struct s_list
 }   t_list;
 
 
-int     ft_isalpha(int c);
-int     ft_isdigit(int c);
-int     ft_isalnum(int c);
+int     ft_isalpha  (int c);
+int     ft_isdigit  (int c);
+int     ft_isalnum  (int c);
+int     ft_isascii  (int i);
+
 
 #endif
