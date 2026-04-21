@@ -1,30 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   isdigit.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: romdo-na <romdo-na@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/21 15:48:46 by romdo-na          #+#    #+#             */
-/*   Updated: 2026/04/21 16:39:27 by romdo-na         ###   ########.fr       */
+/*   Created: 2026/04/21 15:24:29 by romdo-na          #+#    #+#             */
+/*   Updated: 2026/04/21 15:26:26 by romdo-na         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
-
-# include <unistd.h>
-# include <stdlib.h>
-
-typedef struct s_list
+int ft_isdigit (int i)
 {
-    void            *content;
-    struct s_list   *next;
-}   t_list;
-
-
-int     ft_isalpha(int c);
-int     ft_isdigit(int c);
-int     ft_isalnum(int c);
-
-#endif
+    if (i >= '0' && i <= '9')
+        return(1);
+    return(0);
+}
