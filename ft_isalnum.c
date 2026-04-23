@@ -1,24 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: romdo-na <romdo-na@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/21 18:58:40 by romdo-na          #+#    #+#             */
-/*   Updated: 2026/04/21 19:54:03 by romdo-na         ###   ########.fr       */
+/*   Created: 2026/04/21 15:28:35 by romdo-na          #+#    #+#             */
+/*   Updated: 2026/04/23 16:58:33 by romdo-na         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "libft.h"
 
-int main (void)
+int ft_isalnum(int c)
 {
-    printf("");
-    if (ft_isalnum(1) == ft_isalnum(1))
-        printf("ok");
-    else printf("not ok");
-
-    return (0);
+    if (ft_isalpha(c) || ft_isdigit(c))
+        return(1);
+    return(0);
 }

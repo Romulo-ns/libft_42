@@ -1,20 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isalnum.c                                       :+:      :+:    :+:   */
+/*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: romdo-na <romdo-na@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/21 15:28:35 by romdo-na          #+#    #+#             */
-/*   Updated: 2026/04/21 19:36:02 by romdo-na         ###   ########.fr       */
+/*   Created: 2026/04/23 18:06:26 by romdo-na          #+#    #+#             */
+/*   Updated: 2026/04/23 18:36:28 by romdo-na         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include <stddef.h>
 
-int ft_isalnum(int c)
+void ft_bzero(void *s, size_t n)
 {
-    if (ft_isalpha(c) || ft_isdigit(c))
-        return(1);
-    return(0);
+    unsigned char *sta;
+    
+    sta = (unsigned char *)s;
+
+    while (n > 0)
+    {
+        *sta = 0;
+        sta++;
+        n--;
+    }
 }

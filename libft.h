@@ -6,7 +6,7 @@
 /*   By: romdo-na <romdo-na@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 15:48:46 by romdo-na          #+#    #+#             */
-/*   Updated: 2026/04/21 19:35:23 by romdo-na         ###   ########.fr       */
+/*   Updated: 2026/04/23 18:36:21 by romdo-na         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define LIBFT_H
 
 # include <unistd.h>
+# include <ctype.h>
 # include <stdio.h>
 # include <stdlib.h>
 
@@ -30,6 +31,9 @@ int     ft_isalnum  (int c);
 int     ft_isascii  (int i);
 int     ft_isprint  (int i);
 int     ft_strlen   (char *str);
+void    *ft_memset  (void *s, int c, size_t n);
+void    ft_bzero    (void *s, size_t n);
+
 
 
 

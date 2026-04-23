@@ -6,12 +6,12 @@
 #    By: romdo-na <romdo-na@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/04/21 16:23:00 by romdo-na          #+#    #+#              #
-#    Updated: 2026/04/21 19:48:53 by romdo-na         ###   ########.fr        #
+#    Updated: 2026/04/23 16:39:18 by romdo-na         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 
-NAME		= libft
+NAME		= libft.a
 
 CC			= clang
 CFLAGS		= -Wall -Wextra -Werror -g
