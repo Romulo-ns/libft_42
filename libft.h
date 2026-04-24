@@ -6,7 +6,7 @@
 /*   By: romdo-na <romdo-na@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 15:48:46 by romdo-na          #+#    #+#             */
-/*   Updated: 2026/04/24 20:29:26 by romdo-na         ###   ########.fr       */
+/*   Updated: 2026/04/24 20:36:36 by romdo-na         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,7 @@ void    *ft_memmove (void *dest, const void *src, size_t n);
 size_t  ft_strlcpy  (char *dst, const char *src, size_t size);
 size_t  ft_strlcat  (char *dst, const char *src, size_t dstsize);
 int     ft_toupper  (int c);
+int     ft_tolower  (int c);
 
 
 
