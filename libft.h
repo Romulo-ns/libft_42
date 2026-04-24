@@ -6,7 +6,7 @@
 /*   By: romdo-na <romdo-na@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 15:48:46 by romdo-na          #+#    #+#             */
-/*   Updated: 2026/04/24 20:59:41 by romdo-na         ###   ########.fr       */
+/*   Updated: 2026/04/24 21:10:28 by romdo-na         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,5 +44,6 @@ int     ft_tolower  (int c);
 char    *ft_strchr  (const char *s, int c);
 char    *ft_strrchr (const char *s, int c);
 int     ft_strncmp  (const char *s1, const char *s2, size_t n);
+void    *ft_memchr  (const void *s, int c, size_t n);
 
 #endif
