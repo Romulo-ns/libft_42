@@ -6,7 +6,7 @@
 /*   By: romdo-na <romdo-na@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/27 14:49:16 by romdo-na          #+#    #+#             */
-/*   Updated: 2026/04/27 16:28:57 by romdo-na         ###   ########.fr       */
+/*   Updated: 2026/04/27 16:43:38 by romdo-na         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,14 +30,14 @@ int ft_memcmp(const void *s1, const void *s2, size_t n)
     return(0);
 }
 
-int main ()
-{
-    char *x;
-    char *y;
-    int i;
+// int main ()
+// {
+//     char *x;
+//     char *y;
+//     int i;
 
-    x = "abb";
-    y = "abc";
-    i = 10;
-    printf("%i", ft_memcmp(x, y, i));
-}
+//     x = "abb";
+//     y = "abc";
+//     i = 10;
+//     printf("%i", ft_memcmp(x, y, i));
+// }
