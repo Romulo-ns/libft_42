@@ -6,7 +6,7 @@
 /*   By: romdo-na <romdo-na@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 15:48:46 by romdo-na          #+#    #+#             */
-/*   Updated: 2026/04/29 15:16:21 by romdo-na         ###   ########.fr       */
+/*   Updated: 2026/04/29 16:59:15 by romdo-na         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,6 +51,8 @@ int     ft_atoi     (const char *str);
 void    *ft_calloc  (size_t nmemb, size_t size);
 char    *ft_substr  (char const *s, unsigned int start, size_t len);
 char    *ft_strjoin (char const *s1, char const *s2);
+char    *ft_strtrim (char const *s1, char const *set);
+
 
 
 #endif
