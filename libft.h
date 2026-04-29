@@ -6,7 +6,7 @@
 /*   By: romdo-na <romdo-na@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 15:48:46 by romdo-na          #+#    #+#             */
-/*   Updated: 2026/04/28 14:57:07 by romdo-na         ###   ########.fr       */
+/*   Updated: 2026/04/29 15:16:21 by romdo-na         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,7 @@ char    *ft_strnstr (const char *haystack, const char *needle, size_t len);
 int     ft_atoi     (const char *str);
 void    *ft_calloc  (size_t nmemb, size_t size);
 char    *ft_substr  (char const *s, unsigned int start, size_t len);
-
+char    *ft_strjoin (char const *s1, char const *s2);
 
 
 #endif
