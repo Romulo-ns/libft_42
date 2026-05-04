@@ -6,7 +6,7 @@
 /*   By: romdo-na <romdo-na@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 15:48:46 by romdo-na          #+#    #+#             */
-/*   Updated: 2026/05/04 15:10:28 by romdo-na         ###   ########.fr       */
+/*   Updated: 2026/05/04 19:52:06 by romdo-na         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
 # include <stddef.h>
 # include <stdlib.h>
 # include <string.h>
+# include <limits.h>
 
 typedef struct s_list
 {
